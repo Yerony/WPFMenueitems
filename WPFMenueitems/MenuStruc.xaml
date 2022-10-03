@@ -1,0 +1,23 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<DockPanel Key="Dockpanel">
+		<Menu DockPanel.Dock="Top">
+			<MenuItem Header="Menueitem1">
+				<MenuItem Header="M1_Item1" />
+				<MenuItem Header="M1_Item2">
+					<MenuItem Header="M1_2_Item1" />
+				</MenuItem>
+			</MenuItem>
+			<MenuItem Header="Menueitem2">
+				<MenuItem Header="M2_Item1">
+					<MenuItem Header="M2_1_Item1"/>
+					<MenuItem Header="M2_1_Item2"/>
+				</MenuItem>
+			</MenuItem>
+			<MenuItem Header="Menueitem3">
+				<MenuItem Header="M3_Item1"/>
+				<MenuItem Header="M3_Item2"/>
+				<MenuItem Header="M3_Item3"/>
+			</MenuItem>
+		</Menu>
+	</DockPanel>
+</ResourceDictionary>
