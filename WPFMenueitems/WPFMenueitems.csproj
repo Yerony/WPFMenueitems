@@ -11,4 +11,10 @@
     <Page Remove="MenuStruc.xaml" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Page Include="bin\Debug\net6.0-windows\MenuStruc.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+
 </Project>

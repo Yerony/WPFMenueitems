@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="WPFMenue" Height="450" Width="800">
     <DockPanel Name="dockPanel1">
-        <Menu><Button Content="dsa" Click="Lo12"/></Menu>
+        <!--<Menu><Button Content="dsa" Click="Lo12"/></Menu>-->
     </DockPanel>
     
     <!--<Window.Resources>
